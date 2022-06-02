@@ -6,7 +6,8 @@ module.exports = {
   mode: 'development',
   entry: {
     index: './src/index.js',
-    load: './src/page-load.js',
+
+
   },
   devtool: 'inline-source-map',
   devServer: {
@@ -24,5 +25,13 @@ module.exports = {
   },
   optimization: {
     runtimeChunk: 'single',
+  },
+  module: {
+    rules: [
+      {
+        test: /\.css$/i,
+        use: ['style-loader', 'css-loader'],
+      },
+    ],
   },
 };

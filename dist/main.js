@@ -1,0 +1,1 @@
+(()=>{"use strict";var e,t;e=document.createElement("div"),t=document.createElement("img"),e.innerHTML="Welcome to Chick-Fil-A",document.getElementById("content"),document.content.appendChild(t),document.content.appendChild(e),console.log("Test log")})();
