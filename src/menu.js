@@ -1,3 +1,5 @@
+/* Exports module function that clears page content and loads menu content */
+
 export default function menuLoad () {
   var page = document.getElementById('page');
   while (page.firstChild) {
@@ -5,7 +7,8 @@ export default function menuLoad () {
   };
 
   var test = document.createElement('div');
-  test.innerHTML = 'Test!';
+  test.innerHTML = 'Menu Test!';
 
-  document.body.appendChild(test);
+  page.appendChild(test);
+
 };
