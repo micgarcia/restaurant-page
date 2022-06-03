@@ -36,6 +36,12 @@ export default function pageLoad () {
     var hours = document.createElement('div');
     var location = document.createElement('div');
 
+    image.setAttribute('class', 'homePage');
+    headline.setAttribute('class', 'homePage');
+    bio.setAttribute('class', 'homePage');
+    hours.setAttribute('class', 'homePage');
+    location.setAttribute('class', 'homePage');
+
     page.append(image, headline, bio, hours, location);
 
 
@@ -56,6 +62,12 @@ export default function pageLoad () {
     var bio = document.createElement('div');
     var hours = document.createElement('div');
     var location = document.createElement('div');
+
+    image.setAttribute('class', 'homePage');
+    headline.setAttribute('class', 'homePage');
+    bio.setAttribute('class', 'homePage');
+    hours.setAttribute('class', 'homePage');
+    location.setAttribute('class', 'homePage');
 
     page.append(image, headline, bio, hours, location);
 

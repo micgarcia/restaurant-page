@@ -1,3 +1,31 @@
+/*
+  ===================
+  Navigation Bar
+  ===================
+*/
+
+.nav {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
+
+.nav button {
+  width: 6em;
+  height: 2em;
+  font-size: 18px;
+}
+
+
+/*
+  ===================
+  Home Page
+  ===================
+*/
+
+
+
 img {
   max-width: 25%;
 }
+

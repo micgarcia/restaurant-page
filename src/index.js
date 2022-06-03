@@ -21,3 +21,4 @@ home.onclick = pageLoad;
 
 var contact = document.getElementById('contact');
 contact.onclick = contactLoad;
+

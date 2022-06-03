@@ -7,9 +7,12 @@ export default function contactLoad () {
   };
 
   var contact = document.createElement('div');
+  contact.setAttribute('class', 'contactPage');
 
   var contactInfo = document.createElement('p');
   contactInfo.innerHTML = 'Contact Info:<br>Address: 2081 Harbison Dr, Vacaville, CA 95687<br>Phone: (707) 447-1269';
+
+  contactInfo.setAttribute('class', 'contactPage');
   contact.appendChild(contactInfo);
 
 
