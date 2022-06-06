@@ -38,6 +38,12 @@ export default function menuLoad () {
   fries.setAttribute('class', 'menuPage');
   menu.append(friesImg, fries);
 
+  var leftCol = document.createElement('b');
+  var rightCol = document.createElement('b');
+  leftCol.setAttribute('id', 'leftCol');
+  rightCol.setAttribute('id', 'rightCol');
+  leftCol.innerHTML = '';
+  page.append(leftCol, rightCol);
   page.appendChild(menu);
 
 };

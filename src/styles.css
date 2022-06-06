@@ -26,7 +26,7 @@ body {
   justify-content: center;
   gap: 2em;
   background-color: rgb(221, 0, 49);
-  padding: 1em 0 1em 0;
+  padding: 1em 0 0 0;
 }
 
 .nav button {
@@ -35,7 +35,7 @@ body {
   font-size: 26px;
   background-color: white;
   border-style: none;
-  border-radius: 6px;
+  border-radius: 6px 6px 0 0;
 }
 
 .nav button:hover {
@@ -89,3 +89,34 @@ img {
   padding-top: 3em;
 }
 
+/*
+  ===================
+  Menu Page
+  ===================
+*/
+
+.menuPage {
+  grid-column: 2 / 3;
+  display: grid;
+  justify-items: center;
+}
+
+.menuPage p {
+  font-size: 20px;
+  margin: 0;
+}
+
+/*
+  ===================
+  Contact Page
+  ===================
+*/
+
+.contactPage {
+  text-align: center;
+}
+
+.contactPage p {
+  font-size: 20px;
+  padding-top: 2em;
+}

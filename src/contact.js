@@ -15,7 +15,12 @@ export default function contactLoad () {
   contactInfo.setAttribute('class', 'contactPage');
   contact.appendChild(contactInfo);
 
-
+  var leftCol = document.createElement('b');
+  var rightCol = document.createElement('b');
+  leftCol.setAttribute('id', 'leftCol');
+  rightCol.setAttribute('id', 'rightCol');
+  leftCol.innerHTML = '';
+  page.append(leftCol, rightCol);
   page.appendChild(contact);
 
 };
