@@ -65,6 +65,7 @@ body {
   text-align: center;
   padding-left: 1em;
   padding-right: 1em;
+
 }
 
 #leftCol {
@@ -98,7 +99,9 @@ img {
 .menuPage {
   grid-column: 2 / 3;
   display: grid;
+
   justify-items: center;
+
 }
 
 .menuPage p {
